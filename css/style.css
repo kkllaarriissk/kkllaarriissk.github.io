@@ -1,0 +1,517 @@
+  *
+  {
+	  margin: 0;
+	  padding: 0;
+	  font-family: Century Gothic;
+  }
+#spoiler
+{ 
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+ul
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px ;
+
+}
+header
+{
+
+	height:100 vh;
+	background-size:cover;
+	background-position:center;
+}
+
+ul li
+{ 
+
+    display: inline-block;
+
+}
+
+ul li a
+{ 
+    text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+}
+ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a 
+{
+	background-color: #fff;
+	color: #000;
+}
+.logo img
+{ 
+position: fixed;
+bottom:0px;
+right:90%;
+}
+.title
+{ 
+top:30%;
+left:15%;
+transform:translate (-50%,-50%);
+position: absolute;
+}
+.title h1
+{
+color: #fff;
+font-size: 70px;
+font-family: Century Gothic ;
+
+}
+
+.demo
+{
+	position: absolute;
+	top:35%;
+    left:60%;
+    transform:translate (-50%,-50%);
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+ top:28%;
+ left:15%;
+ transform:translate (-50%,-50%);
+ position: absolute;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+.fade-in2 {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+ top:70%;
+ left:75%;
+ transform:translate (-50%,-50%);
+ position: absolute;
+}
+
+@keyframes fadeIn2 {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+.box1TextInitialStyle
+{
+	opacity: 0;
+}
+
+.box2TextInitialStyle
+{
+	opacity: 0;
+}
+
+.box3TextInitialStyle
+{
+	opacity: 0;
+}
+
+
+.fade-out {
+  animation: fadeOut ease 1s;
+  -webkit-animation: fadeOut ease 1s;
+  opacity: 0;
+}
+
+
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+
+.border
+{ background-color: #262626 ;
+}
+
+
+
+.rectangle
+{
+	height: 10%;
+	width: 100%;
+	background-color: #160c27;
+	top: 20%;
+	bottom: 30%;
+	left: 50% ;
+	right: 60%;
+}
+
+.textAM
+{
+	 margin: auto;
+     width: 50%;
+     padding: 200px;
+	 text-align: center;
+	
+}
+
+.textAM1
+{
+	 margin: auto;
+     width: 50%;
+	 text-align: center;
+	
+}
+
+.textAM2
+{
+	 margin-right: 100px;
+     width: 90%;
+	 text-align: right;
+	
+}
+
+#lines
+{
+     position: absolute;
+     top: 40%;
+     left: 5%;
+}
+
+#lines2
+{
+	position: absolute;
+     top: 40%;
+     left: 80%;
+}
+
+.vl
+{
+	border-left: 3px solid black;
+  height: 500px;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
+
+.vl1
+{
+	border-left: 3px solid black;
+    height: 500px;
+    position: absolute;
+    left: 70%;
+    top: 20%;
+}
+
+.fade-in3 {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3ss;
+  opacity: 1
+
+}
+
+@keyframes fadeIn3 {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#JSbutton
+{
+	  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#JSbutton1
+{
+	 height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.redRect
+{
+	animation: redFlyin 2s ease;
+}
+
+@keyframes redFlyin {
+  0% {
+    transform: translateX(-1500px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.whiteRect
+{
+	animation: whiteFlyin 2s ease;
+}
+
+@keyframes whiteFlyin {
+  0% {
+    transform: translateX(600px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.fade-image
+{ 
+	top:40%;
+	left:15%;
+	transform:translate (-50%,-50%);
+	position: absolute;
+	animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  66% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+  
+}
+
+.socialMediaLinks
+{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    top: 350;
+	text-align: center;
+}
+
+#youtube
+{ 
+  position: absolute;
+  top: 16vw;
+  left: 45vw;
+
+}
+
+#instagram
+{ 
+  position: absolute;
+    top: 17vw;
+  left: 50vw;
+
+}
+
+
+#Facebook
+{ 
+  position: absolute;
+  top: 17vw ;
+  left: 55vw;
+
+}
+
+.box1
+{
+	background-color: #F5F5F5;
+	padding: 2em;
+	box-shadow: 0.3vh 0.8vw #A9A9A9;
+	margin: 50px;
+	height: 30vh;
+	width: 25vw;
+    transition: width 2s;
+}
+
+.box2
+{
+	background-color: #F5F5F5;
+	padding: 2em;
+	box-shadow: 0.3vh 0.8vw #A9A9A9;
+	margin: 50px;
+	height: 30vh;
+	width: 25vw;
+    transition: width 2s;
+}
+
+.box3
+{
+    background-color: #F5F5F5;
+	padding: 2em;
+	box-shadow: 0.3vh 0.8vw #A9A9A9;
+	margin: 50px;
+	height: 30vh;
+	width: 25vw;
+    transition: width 2s;
+}
+
+
+
+.box1:hover {
+  width: 70%;
+}
+
+.box2:hover {
+  width: 70%;
+}
+.box3:hover {
+  width: 70%;
+}
+
+.mySlides
+{
+	width: 18vw;
+	height: 20vh;
+	position: absolute;
+	margin-left: 0vw;
+    margin-top: -7vh;
+}
+
+.mySlides1
+{
+	width: 18vw;
+	height: 20vh;
+	position: absolute;
+	margin-left: 0vw;
+    margin-top: -3vh;
+}
+
+.mySlides2
+{
+	width: 18vw;
+	height: 10vw;
+	position: absolute;
+	margin-left: 0vw;
+    margin-top: -6vw;
+}
+
+
+.slide-container
+{
+	position: fixed;
+}
+
+#nothing
+{
+	position: absolute;
+}
+
+#btback
+{ 
+    margin-left: 18vw;
+    margin-top: 3vw;
+    width: 2vw;
+    height: 1vw;   
+    background: transparent;
+    border: black;
+    color: black;   
+    font-size:2vw;
+    font-weight:700;
+}
+
+#btright
+{ 
+    margin-left: 0vw;
+    margin-top: 0vw;
+    width: 2vw;
+    height: 1vw;   
+    background: transparent;
+    border: none;
+    color: black;   
+    font-size:2vw;
+    font-weight:700;
+}
+
+#btback1
+{ 
+    margin-left: 18vw;
+    margin-top: 3vw;
+    width: 2vw;
+    height: 1vw;   
+    background: transparent;
+    border: black;
+    color: black;   
+    font-size:2vw;
+    font-weight:700;
+}
+
+#btright1
+{ 
+    margin-left: 0vw;
+    margin-top: 0vw;
+    width: 2vw;
+    height: 1vw;   
+    background: transparent;
+    border: none;
+    color: black;   
+    font-size:2vw;
+    font-weight:700;
+}
+
+
+#btback2
+{ 
+    margin-left: 18vw;
+    margin-top: 0vw;
+    width: 2vw;
+    height: 1vw;   
+    background: transparent;
+    border: black;
+    color: black;   
+    font-size:2vw;
+    font-weight:700;
+}
+
+#btright2
+{ 
+    margin-left: 0vw;
+    margin-top: 0vw;
+    width: 2vw;
+    height: 1vw;   
+    background: transparent;
+    border: none;
+    color: black;   
+    font-size:2vw;
+    font-weight:700;
+}
+
+video
+{
+	position: fixed ;
+	left:73% ;
+	top: 35%
+}

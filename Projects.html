@@ -1,0 +1,230 @@
+<html>
+<title> Projects </title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<header> 
+      <div class="main">
+	  
+	     <div class= "logo">
+		     <img src="images/logo.jpeg">
+		 </div>
+	
+	 <div class="border">
+	     <ul>
+		  <li><a href="Index.html"> Home </a></li>
+		  <li><a href="About Me.html"> About me </a></li>
+		  <li class="active"><a href="Projects.html"> Projects </a></li>
+		  <li><a href="Contact.html"> Contact  </a></li>
+		  </ul>
+
+	 </div>
+	<div class="rectangle">
+	</div>
+   </header>
+<body style="background-color: #ccccff"> 
+
+  <div class="box1" onmouseleave="mouseLeaveBox1()" onmouseenter="mouseEnterBox1()">
+   <div class="textAM2">
+     <div id="box1Text" class="box1TextInitialStyle">
+         <h1 style="font-weight: bold ; font-size: 24px"> Silent Dreamer</h1>
+	     <p>This project focused on delivering a</p>
+		 <p>toy line to the public, therefore i teamed </p>
+		 <p>up with two friends and we decided to create </p>
+		 <p>a noir based story.</p>
+         <p>I was in charge of the promotional material, therefore </p>
+         <p>i decided to 3D model an office and make a little camera </p>
+         <p>animation to get the customer intrigued, I also modelled </p>
+         <p>and sculpt the head for our character as well as 3D printed.</p>
+	 </div>
+   </div>
+   <div id="nothing">
+   <img class="mySlides" src="images/noiroffice.png" >
+  <img class="mySlides" src="images/noiroffice2.jpg" >
+  <img class="mySlides" src="images/noiroffice3.jpg" >
+  <img class="mySlides" src="images/noiroffice4.jpg" >
+  
+  <button id="btback" onclick="plusDivs(-1)">&#10094;</button>
+  <button id="btright" onclick="plusDivs(1)">&#10095;</button>
+   </div>
+  </div>
+  
+  
+  <div class="box2" onmouseleave="mouseLeaveBox2()" onmouseenter="mouseEnterBox2()">
+   <div class="textAM2">
+    <div id="box2Text" class="box2TextInitialStyle">
+         <h1 style="font-weight: bold ; font-size= 24px"> Saint Grasbe</h1>
+	     <p>I was tasked with a breif themed Fantasy. </p>
+		 <p>The brief was mainly oriented on environments </p>
+		 <p>therefore i decided to create some sketches and </p>
+		 <p>concept art based on my story which focuses on a </p>
+		 <p>fictional copy of the earth where humans have</p>
+         <p>learned how to fuse natural element into their bodies. </p>
+         <p>I also 3D modelled an interior and exterior.</p>
+	 </div>
+   </div>
+   <div id="nothing">
+   <img class="mySlides1" src="images/1.jpg" >
+  <img class="mySlides1" src="images/2.jpg" >
+  <img class="mySlides1" src="images/3.jpg" >
+  <img class="mySlides1" src="images/4.jpg" >
+  
+  <button id="btback1" onclick="plusDivs1(-1)">&#10094;</button>
+  <button id="btright1" onclick="plusDivs1(1)">&#10095;</button>
+   </div>
+  </div>
+  
+  
+   <div class="box3" onmouseleave="mouseLeaveBox3()" onmouseenter="mouseEnterBox3()">
+   <div class="textAM2">
+     <div id="box3Text" class="box3TextInitialStyle">
+         <h1 style="font-weight: bold ; font-size= 24px"> Western Brief</h1>
+	     <p>I was tasked with a brief themed Wild West.</p>
+		 <p>the characters are designed based around my </p>
+		 <p>story.</p>
+         <p>The story is about Juanita Del Castro which is</p> 
+		 <p>a hunter with a cognitive dissonance.</p>
+         <p>Cognitive dissonance is a mental discomfort</p>
+		 <p>experienced by the individual once a contradictory</p>
+		 <p>concept is presented. </p>
+        
+	 </div>
+   </div>
+   <div id="nothing">
+   <img class="mySlides2" src="images/western1.jpg" >
+  <img class="mySlides2" src="images/western2.jpg" >
+  <img class="mySlides2" src="images/western3.jpg" >
+  
+  
+  
+  <button id="btback2" onclick="plusDivs2(-1)">&#10094;</button>
+  <button id="btright2" onclick="plusDivs2(1)">&#10095;</button>
+   </div>
+  </div>
+
+
+
+	 
+ <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+///////////
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs1(n) {
+  showDivs1(slideIndex += n);
+}
+
+function showDivs1(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+/////////////
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs2(n) {
+  showDivs2(slideIndex += n);
+}
+
+function showDivs2(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+//////////
+
+function mouseLeaveBox1()
+{
+	box1Text = document.getElementById("box1Text");
+	box1Text.classList.remove("fade-in3");
+	box1Text.classList.add("fade-out");
+}
+
+function mouseEnterBox1()
+{
+	box1Text = document.getElementById("box1Text");
+	box1Text.classList.remove("box1TextInitialStyle");
+	box1Text.classList.remove("fade-out");
+	box1Text.classList.add("fade-in3");
+}
+
+////////////
+function mouseLeaveBox2()
+{
+	box2Text = document.getElementById("box2Text");
+	box2Text.classList.remove("fade-in3");
+	box2Text.classList.add("fade-out");
+}
+
+function mouseEnterBox2()
+{
+	box2Text = document.getElementById("box2Text");
+	box2Text.classList.remove("box2TextInitialStyle");
+	box2Text.classList.remove("fade-out");
+	box2Text.classList.add("fade-in3");
+	}
+	
+	///////
+	
+	function mouseLeaveBox3()
+{
+	box3Text = document.getElementById("box3Text");
+	box3Text.classList.remove("fade-in3");
+	box3Text.classList.add("fade-out");
+}
+
+function mouseEnterBox3()
+{
+	box3Text = document.getElementById("box3Text");
+	box3Text.classList.remove("box3TextInitialStyle");
+	box3Text.classList.remove("fade-out");
+	box3Text.classList.add("fade-in3");
+	}
+
+
+
+// sizes change on different monitors
+//fix format on contact page
+//change format on project page because the different monitors see it different 
+//add a picture on home page 
+//add an animation on contact page
+
+</script>
+	 
+
+
+</body>
+</html>
